@@ -1,6 +1,6 @@
 const portfolioData = {
   "navigation": {
-    "logo": "JR",
+    "logo": "Juli Rosa",
     "links": [
       {
         "text": "Home",
@@ -24,8 +24,8 @@ const portfolioData = {
     "tag": "UX Designer · Trilingual · 7+ years",
     "headline": "Strategic design &",
     "headlineStrong": "measurable impact.",
-    "subtitle": "Master's in UX. Led design systems, Figma adoption, and AI-driven research at enterprise scale.",
-    "image": "https://cdn.prod.website-files.com/60a52b953cdc7e6337817f11/69c6b774d14a0b497cad77cb_IMG_3450-2.jpg",
+    "subtitle": "MSc Master in UX, 7+ years building digital products for Fortune 500 companies. Specialising in design systems, AI-driven research and designing for real users.",
+    "image": "https://cdn.prod.website-files.com/60a52b953cdc7e6337817f11/69fdd75ce7587cb7256182dc_jrosaux-square-p-500.png",
     "ctaPrimary": {
       "text": "View my work",
       "url": "#projects"
@@ -667,7 +667,7 @@ const portfolioData = {
     }
   },
   "footer": {
-    "copyright": "© 2026 Juliana Rosa · Created in Ireland, occasionally from my campervan by the sea.",
+    "copyright": "© 2026 Juli Rosa · Created in Ireland, occasionally from my campervan by the sea.",
     "languages": [
       "EN",
       "ES",
