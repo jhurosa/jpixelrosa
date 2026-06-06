@@ -379,7 +379,7 @@ const portfolioData = {
           "enabled": true,
           "title": "",
           "content": "Stripe is exceptional at enabling payments. But when a US merchant decides to expand into Ireland or Brazil, the Dashboard doesn't guide them through what that actually requires. The information exists distributed across Stripe Docs, the Tax product, and the Payment Methods guide, but there's no unified flow that connects the three decisions a seller has to make before they can confidently go live in a new market.\n\n<p>The result is friction at exactly the moment it matters most: when a business is ready to grow.</p>\n\n<p><strong>Two Markets, Two Very Different Challenges</strong>\nIreland and Brazil illustrate opposite ends of the expansion complexity spectrum—and both expose the same gap in Stripe's product.\n\n<p><strong>Ireland</strong> sits inside the EU. It uses EUR, English is the primary language, and SEPA Direct Debit is a standard payment expectation for subscriptions and B2B sellers; Irish VAT applies at a 23% standard rate, with reduced rates for specific categories. For a US sellers, it looks deceptively simple, and that's exactly where mistakes happen. Sellers assume a US card-first checkout will perform the same way. It often doesn't.</p>\n\n<p><strong>Brazil</strong> is a fundamentally different market. PIX—Brazil's instant payment system—has become the dominant payment method since its 2020 launch, overtaking cards for many transaction types. Boleto Bancário remains widely used for unbanked consumers. Checkouts require CPF or CNPJ validation (Brazilian tax ID numbers). The tax system is layered across federal, state, and municipal levels, making compliance one of the highest-friction aspects of selling in Brazil. And the checkout must be in Portuguese.</p>\n\n<p>A seller expanding to either market today gets no in-product guidance connecting these requirements. They have to leave the Dashboard and figure it out themselves.</p>",
-          "image": ""
+          "image": "img/latest/Stripe/images/challenge.png"
         },
         "problem": {
           "enabled": true,
@@ -393,6 +393,10 @@ const portfolioData = {
             {
               "url": "img/latest/Stripe/images/current-2-Stripe-tax.png",
               "caption": "Stripe Tax"
+            },
+            {
+              "url": "[object Object]img/latest/Stripe/images/current-3-check-out-config.png",
+              "caption": "Check out Config"
             }
           ]
         },
