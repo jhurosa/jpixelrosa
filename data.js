@@ -506,7 +506,7 @@ const portfolioData = {
         "overview": {
           "enabled": true,
           "tagline": "",
-          "content": "Built and presented the business case to secure executive funding — including competitive benchmarking, Figma adoption data, and a working proof of concept\nLed the strategic vision and execution of the design system from concept to full adoption\nDesigned 50+ production-ready components using Atomic Design principles across desktop, mobile, and tablet\nEstablished design foundations: color system, typography scale, spacing grid, iconography\nCreated governance model and contribution guidelines for long-term sustainability\nDrove cross-functional alignment between design and engineering teams\nRan workshops and training to onboard 35+ designers and developers\nMeasured and tracked adoption metrics to prove business value"
+          "content": "<p>Compass HR had 12 products, 35+ designers, and no shared design language. \nEvery team worked in isolation, every product had evolved its own component \nlibrary, and every new hire spent weeks figuring out how things were done before \nthey could contribute anything meaningful.</p>\n\n<p>The solution was a unified, multi-platform design system covering desktop, \nmobile, and tablet. But before a single component was built, the bigger \nchallenge had to be solved first: convincing a 150-year-old company that design \ninfrastructure was worth funding.</p>\n\n<p>That took six months. What came after took two years — and changed how the \nentire organization designs and builds.</p>"
         },
         "contribution": {
           "enabled": true,
