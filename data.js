@@ -133,6 +133,16 @@ const portfolioData = {
         "image": "img/latest/DS/ds-card-cover.png",
         "link": "project.html?id=proj-1780826710054",
         "locked": false
+      },
+      {
+        "id": "proj-1781007763207",
+        "date": "2026",
+        "title": "Vantage Life",
+        "description": "Redesigning a legacy insurance enrollment flow — from 2003-era form hell to a guided, AI-assisted experience built around user decisions, not system requirements.",
+        "metric": "",
+        "image": "",
+        "link": "project.html?id=proj-1781007763207",
+        "locked": false
       }
     ]
   },
@@ -553,6 +563,82 @@ const portfolioData = {
           "enabled": true,
           "title": "The Impact",
           "content": "<p><strong>WHAT CHANGED</strong></p>\n<p><strong>For Designers</strong></p>\n\n<p>No more reinventing the wheel. Designers stopped spending time recreating \nbuttons and forms and started spending it solving real user problems. New hires \ncould contribute high-fidelity, on-brand work within days of joining — not \nweeks. The system gave them a foundation to build on, not a puzzle to \nreverse-engineer.</p>\n\n<p><strong>For Developers</strong></p>\n\n<p>A shared language between design and engineering meant developers could \nimplement accurately the first time. The correction cycles that had consumed \nhours of back-and-forth on every project were replaced by joint reviews and \nshared naming conventions. Handoff stopped being a handoff and became a \nconversation.</p>\n\n<p><strong>For the Business</strong></p>\n\n<p>Faster product development. Reduced legal risk through accessibility \ncompliance. A consistent experience across 12 products that built user trust \ninstead of eroding it. The design system paid for itself through efficiency \ngains — and the six-month fight to fund it turned out to be the best \ninvestment the team made.</p>\n\n<p><strong>For Users</strong></p>\n\n<p>Employees managing benefits decisions — enrollment deadlines, dependent \ncoverage, life events — now interact with a product that feels stable, \ncoherent, and professional across every touchpoint. The visual instability \nthat had quietly signaled organizational dysfunction was replaced by an \nexperience that earns trust before a single word is read.</p>"
+        }
+      }
+    },
+    "proj-1781007763207": {
+      "title": "New Project",
+      "summary": "A self-initiated concept redesigning a legacy employee benefits enrollment experience — simplifying a 6-step insurance enrollment flow through progressive disclosure, contextual AI guidance, and a unified decision architecture that connects benefit selection, dependent coverage, beneficiary designation, and cost review into one coherent experience.",
+      "role": "UX designer",
+      "timeline": "6 months",
+      "team": "",
+      "tools": "Figma",
+      "heroImage": "",
+      "stats": [],
+      "sections": {
+        "overview": {
+          "enabled": true,
+          "tagline": "",
+          "content": "<p>A conceptual direct-to-consumer life insurance enrollment experience — designed to explore how complex insurance decisions can be simplified through progressive disclosure, contextual AI guidance, and a multi-step flow that respects user autonomy at every stage.</p>"
+        },
+        "contribution": {
+          "enabled": true,
+          "content": "<p>This was a self-initiated conceptual project. I owned the end-to-end design — from flow architecture to high-fidelity screens.</p>\n\n<p>Responsibilities included: defining the enrollment flow structure, designing all screens across plan selection, who's covered, preliminary information, coverage review, beneficiary setup, enrollment summary, and confirm & submit, integrating a contextual AI assistant layer across the flow, and writing all UX copy.</p>"
+        },
+        "challenge": {
+          "enabled": true,
+          "title": "",
+          "content": "<p>Life insurance is a product most people know they need and few want to think about. For DTC enrollment to work, the experience has to do something genuinely hard: surface enough information to drive a confident decision, without triggering the paralysis that kills conversion.</p>\n\n<p>The core tension is one that runs through every high-stakes enrollment flow: <strong>how much do you show, and when?</strong> Show too little and users don't trust the product. Show too much and they abandon.</p>\n\n<p>Most DTC life insurance experiences fail in the same three ways: they present options without context, they offer no guidance at the steps that require it most, and they treat cost transparency as a closing screen rather than a thread running through the whole flow.</p>",
+          "image": ""
+        },
+        "problem": {
+          "enabled": true,
+          "title": "",
+          "content": "<p><strong>Plan selection without context.</strong> Most flows present a product list with no indication of what's right for the user's situation. A first-time buyer choosing between Individual Whole Life, Critical Illness, and Accident coverage has no frame of reference — and no help deciding.</p>\n\n<p><strong>Beneficiary setup is where flows fall apart.</strong> The combination of legal terminology, percentage allocation, and multiple recipient types (individual, estate, trust) creates the highest abandonment risk in any enrollment flow. Most products offer no guidance at this step.</p>\n\n<p><strong>Coverage review screens that feel like receipts, not decisions.</strong> The typical quote summary presents a line-item list with no explanation of what the numbers mean. Users either skip past it or get cold feet when they see the total — both outcomes represent a failure of the design.</p>",
+          "images": [
+            {
+              "url": "img/latest/vantage-life/Beneficiary.png",
+              "caption": "Beneficiary"
+            },
+            {
+              "url": "img/latest/vantage-life/benefit-plan.png",
+              "caption": "Benefit Plan"
+            },
+            {
+              "url": "img/latest/vantage-life/review-cost-plan.png",
+              "caption": "Review"
+            }
+          ]
+        },
+        "strategy": {
+          "enabled": true,
+          "title": "The strategy was built on three principles:",
+          "content": "<p><strong>Progressive disclosure.</strong> Complexity is staged across the flow — simple first, detail on demand. Users see their current selection before being asked to add more. Each screen surfaces only what the current step requires.</p>\n\n<p><strong>Guidance at the moment of decision.</strong> Rather than front-loading information or offloading it to a help centre, the Virtual Agent surfaces contextual prompts at each decision point — <em>\"Why choose this plan?\"</em>, <em>\"Who is a good candidate for this coverage?\"</em>, <em>\"What are people similar to you selecting?\"</em> — directly inside the flow.</p>\n\n<p><strong>Honest cost visibility.</strong> Per-deduction totals are surfaced throughout the enrollment, not just at the final review. Users who see the cost early are less likely to abandon at confirm & submit.</p>",
+          "image": "",
+          "images": []
+        },
+        "solution": {
+          "enabled": true,
+          "title": "",
+          "content": "<p>A 7-step enrollment flow covering plan selection, who's covered, preliminary information, coverage review, beneficiary setup, enrollment summary, and confirm & submit.</p>\n\n<p><strong>Plan selection</strong> uses a selected/available split — the user's current choice is surfaced first, with complementary options below. Each option includes an AI-powered <em>\"Why choose this plan?\"</em> prompt.</p>\n\n<p><strong>Who's covered</strong> maps each plan to eligible dependents, with edit controls for both dependants and plan selections accessible at the top of the page. Users are never locked in.</p>\n\n<p><strong>Coverage review</strong> presents a line-item breakdown per plan with a sticky total at the bottom of the viewport and a clear fork: save progress or begin the enrollment summary.</p>\n\n<p><strong>Beneficiary setup</strong> uses a <em>\"Same for all plans\" / \"Choose by plan\"</em> toggle to reduce cognitive load for simple cases while preserving full control for complex ones. A real-time allocation tracker provides immediate feedback without requiring manual calculation.</p>\n\n<p>The <strong>Virtual Agent</strong> appears on every screen as a collapsible panel — integrated into the flow, not bolted on as a support widget.</p>",
+          "images": []
+        },
+        "prototype": {
+          "enabled": true,
+          "title": "Prototype",
+          "videoUrl": "Figma prototype available on request"
+        },
+        "results": {
+          "enabled": true,
+          "title": "Results & Impact",
+          "content": "<p><strong>How would I measure success? </p><s/trong>\n<p>This is a conceptual project. No live metrics are available. If implemented, success would be measured against:</p>\n\n<p><strong>Enrollment completion rate</strong> — what percentage of users who start the flow reach confirm & submit.</p>\n\n<p><strong>Step abandonment rate</strong> — which screen drives the most drop-off, and whether the AI guidance reduces it at the beneficiary setup step specifically.</p>\n\n<p><strong>Plan upsell rate</strong> — did users add a second plan when guided through plan selection versus an unguided experience.</p>\n\n<p><strong>Support contact rate</strong> — whether users who complete the guided flow generate fewer post-enrollment support contacts around coverage questions.</p>",
+          "quote": "",
+          "quoteAuthor": ""
+        },
+        "impact": {
+          "enabled": true,
+          "title": "The Impact",
+          "content": "<p>Vantage Life was designed to prove a specific thesis: that a DTC life insurance enrollment experience can feel <strong>clear without being reductive, guided without being prescriptive, and complete without being overwhelming.</strong></p>\n\n<p>The design decisions that matter most in this flow aren't the visual ones — they're the structural ones: where AI guidance is placed, how complexity is staged, and the insistence that every step gives users an honest picture of what they're committing to before they commit.</p>\n\n<p>This is the same problem I worked through designing enrollment flows professionally — applied here in a conceptual context. The domain is life insurance. The design problem is universal: <strong>how do you help someone make a high-stakes decision they'd rather not have to make?</strong></p>"
         }
       }
     }
