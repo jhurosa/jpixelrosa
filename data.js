@@ -680,5 +680,5 @@ const portfolioData = {
       "PT"
     ]
   },
-  "ndaPasswordHash": "dd842fa7427a1b56ebd593bac3b048c4fd9999c03bbc5f2bf07e21cb9381212b"
+  "gdprPasswordHash": "dd842fa7427a1b56ebd593bac3b048c4fd9999c03bbc5f2bf07e21cb9381212b"
 };
