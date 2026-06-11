@@ -133,7 +133,7 @@
       <input type="password" id="lpw" placeholder="Enter password" autocomplete="current-password" />
     </div>
     <button class="btn btn-dark" style="width:100%;justify-content:center" onclick="doLogin()">Sign in</button>
-    <div style="margin-top:1rem;font-size:10px;color:var(--text3);text-align:center">Default: <code>jrosaux2026</code></div>
+    <div style="margin-top:1rem;font-size:10px;color:var(--text3);text-align:center">Default: <code>13Figma!2026Kdxds</code></div>
   </div>
 </div>
 
@@ -299,7 +299,7 @@
           </div>
           <div class="card">
             <div class="card-title">Admin Password</div>
-            <p class="text-muted" style="margin-bottom:1rem">Current admin password: <strong>jrosaux2026</strong>. To change it, generate a new hash and replace <code>3ef3b5b7012aa1506a18f9fccd94046a7277b8692844e5203c0f04977f1176da</code> in admin.html.</p>
+            <p class="text-muted" style="margin-bottom:1rem">Current admin password: <strong>13Figma!2026Kdxds</strong>. To change it, generate a new hash and replace <code>3ef3b5b7012aa1506a18f9fccd94046a7277b8692844e5203c0f04977f1176da</code> in admin.html.</p>
             <div class="grid2">
               <div class="fg"><label>New password</label><input type="text" id="admin-plain" placeholder="New password" /></div>
               <div class="fg"><label>New hash (copy to admin.html)</label><input type="text" id="admin-hash-out" readonly placeholder="Hash appears here" /></div>
@@ -318,7 +318,7 @@
 <script src="data.js"></script>
 <script>
 // ── AUTH ──────────────────────────────────────────────────────────────────────
-// Default password: jrosaux2026
+// Default password: 13Figma!2026Kdxds
 // To change: generate new SHA-256 hash and replace ADMIN_HASH below
 const 3ef3b5b7012aa1506a18f9fccd94046a7277b8692844e5203c0f04977f1176da = 'PLACEHOLDER_HASH';
 // ^ We'll check against both the hash and the default password directly
@@ -331,7 +331,7 @@ async function sha256(s) {
 async function doLogin() {
   const pw = document.getElementById('lpw').value;
   const hash = await sha256(pw);
-  const ok = pw === 'jrosaux2026' || hash === 3ef3b5b7012aa1506a18f9fccd94046a7277b8692844e5203c0f04977f1176da;
+  const ok = pw === '13Figma!2026Kdxds' || hash === 3ef3b5b7012aa1506a18f9fccd94046a7277b8692844e5203c0f04977f1176da;
   if (ok) {
     document.getElementById('login').style.display = 'none';
     document.getElementById('app').style.display = 'block';
