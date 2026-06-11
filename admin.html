@@ -742,7 +742,7 @@ async function genNdaHash() {
 function saveNdaHash() {
   const hash = document.getElementById('nda-hash-display').value;
   if (!hash) { toast('Generate a hash first.','err'); return; }
-  state.ndaPasswordHash = hash;
+  state.site.gdprPasswordHash = hash;
   save(); toast('NDA hash saved!', 'ok');
 }
 
