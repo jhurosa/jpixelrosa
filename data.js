@@ -1,6 +1,6 @@
 const portfolioData = {
   "navigation": {
-    "logo": "Juliana Rosa",
+    "logo": "J. PIxel Rosa",
     "links": [
       {
         "text": "Home",
@@ -25,7 +25,7 @@ const portfolioData = {
     "headline": "Strategic design &",
     "headlineStrong": "measurable impact.",
     "subtitle": "MSc Master in UX, 7+ years building digital products for Fortune 500 companies. Specialising in design systems, AI-driven research and designing for real users.",
-    "image": "https://cdn.prod.website-files.com/60a52b953cdc7e6337817f11/69fdd75ce7587cb7256182dc_jrosaux-square-p-500.png",
+    "image": "https://github.com/jhurosa/test/blob/main/img/latest/jpixelrosa_logo_final.png",
     "ctaPrimary": {
       "text": "View my work",
       "url": "#projects"
@@ -59,12 +59,8 @@ const portfolioData = {
     "headlineStrong": "problem solver.",
     "bio1": "I'm a UX / Product Designer with 7+ years of experience designing enterprise-scale digital products for Fortune 500 companies. I hold a Master's in UX and have led design systems, AI-driven research initiatives, and cross-functional product design at Unum.",
     "bio2": "I believe great design isn't just about aesthetics — it's about reducing cognitive load, building trust, and creating systems that scale. My work sits at the intersection of strategic thinking and pixel-level craft.",
-    "image": "https://cdn.prod.website-files.com/60a52b953cdc7e6337817f11/69c6b774d14a0b497cad77cb_IMG_3450-2.jpg",
+    "image": "img/latest/jpixelrosa_about-me.png",
     "skills": [
-      {
-        "category": "Design",
-        "items": "Product Design · UX Design · Design Systems · Interaction Design · Accessibility"
-      },
       {
         "category": "Research",
         "items": "User Research · Usability Testing · Mixed Methods · AI-Driven Research"
@@ -76,22 +72,17 @@ const portfolioData = {
       {
         "category": "Languages",
         "items": "English · Spanish · Portuguese"
-      }
-    ],
-    "experience": [
-      {
-        "period": "2021 – 2026",
-        "role": "UX Designer II",
-        "company": "Unum",
-        "description": "Led enterprise design systems, Figma adoption across cross-functional teams, and AI-driven UX research."
       },
       {
-        "period": "2019 – 2021",
-        "role": "Master's in UX",
-        "company": "University",
-        "description": "Focused on accessibility research, augmented reality wayfinding, and mixed-methods user research."
+        "category": "Design",
+        "items": "Product Design · UX Design · Design Systems · Interaction Design · Accessibility"
+      },
+      {
+        "category": "AI tools",
+        "items": "Claude Ai · V0.app · Figma Make · Nano banana · Notebook LM · Perplexity AI"
       }
     ],
+    "experience": [],
     "ctaText": "Get in touch",
     "ctaUrl": "contact.html"
   },
@@ -100,8 +91,8 @@ const portfolioData = {
     "headline": "Let's work",
     "headlineStrong": "together.",
     "subtitle": "Open to fully remote or hybrid product design roles. Based in Ireland.",
-    "email": "hello@jrosaux.com",
-    "linkedin": "https://www.linkedin.com/in/jrosaux/",
+    "email": "hello@jpixelrosa.com",
+    "linkedin": "",
     "formspreeId": "",
     "availability": "Available for remote and hybrid roles · Ireland"
   },
@@ -111,7 +102,7 @@ const portfolioData = {
       "enabled": false,
       "text": "These case studies are under NDA. To access the full work,",
       "linkText": "request the password",
-      "linkUrl": "mailto:hello@jrosaux.com"
+      "linkUrl": "mailto:hello@jpixelrosa.com"
     },
     "projects": [
       {
@@ -429,10 +420,6 @@ const portfolioData = {
             {
               "url": "img/latest/Stripe/images/side-by-side.png",
               "caption": "Side by Side"
-            },
-            {
-              "url": "",
-              "caption": ""
             }
           ]
         },
@@ -508,7 +495,7 @@ const portfolioData = {
           "label": "UX designers trained"
         },
         {
-          "number": "85%",
+          "number": "100%",
           "label": "UX adoption and acceptance"
         }
       ],
@@ -524,7 +511,7 @@ const portfolioData = {
         },
         "challenge": {
           "enabled": true,
-          "title": "A 135-Year-Old Company That Didn't See the Problem",
+          "title": "A 150-Year-Old Company That Didn't See the Problem",
           "content": "<p>Compass HR had been operating for over 150 years. The business was stable, \nsuccessful, and deeply resistant to infrastructure investment that didn't have \nan obvious revenue line attached to it.</p>\n\n<p>When I identified that our design fragmentation was costing us real money — \nin duplicated effort, in slower product development, in eroding user trust — \nthe initial response from leadership was: <em>we've always worked this way.</em></p>\n\n<p>That was the real challenge. Not the technical problem of building a design \nsystem. The organizational problem of convincing a mature enterprise that design \ninfrastructure was worth funding.</p>\n\n<p><strong>Three problems we were trying to solve:</strong></p>\n\n<ul>\n  <li><strong>Designing in silos.</strong> Every product team operated \n  independently, making design decisions in isolation. There was no shared \n  library, no shared language, and no mechanism for teams to learn from each \n  other. The same problems were being solved — badly — over and over again \n  across the organization.</li>\n\n  <li><strong>Multiple disconnected design systems.</strong> Different products \n  had evolved their own component libraries over time. They weren't compatible, \n  they weren't maintained, and they weren't trusted. Designers worked around \n  them rather than with them. The result: five different versions of a primary \n  button. Three navigation patterns across our portals. Colors and spacing that \n  almost matched but didn't.</li>\n\n  <li><strong>No material to onboard new designers.</strong> There was no source \n  of truth a new hire could pick up and use. Onboarding meant weeks of auditing \n  old files, asking senior designers for tribal knowledge, and guessing at \n  standards that had never been written down. We were losing time and momentum \n  every time someone new joined the team.</li>\n</ul>\n\n<p>For users managing sensitive benefits decisions — enrollment deadlines, \ndependent coverage, life events — that visual instability signals something \ndeeper. In HR and benefits software, <strong>trust is the product.</strong> \nWe were eroding it one inconsistent component at a time.</p>\n<p><em>\"How might we create a unified, multi-platform design system that \neliminates redundant effort, reduces onboarding friction, and delivers a \nconsistent, trustworthy experience across all Compass HR products — while \nbuilding the organizational case to fund it?\"</em></p>\n\n<p><strong>THE SIX-MONTH FIGHT</p></strong>\n\n<p>This is the part most design system case studies skip. The system didn't \nstart with a Figma file. It started with a business case that took six months \nto win.</p>\n\n<p><strong>What We Were Up Against</strong></p>\n\n<p>Leadership's objection wasn't irrational. Compass HR was profitable. Products \nwere shipping. From the outside, the fragmentation was invisible. The cost of \ndoing nothing felt like zero. Our job was to make the invisible cost visible.</p>\n\n<p><strong>Competitive Benchmarking</strong></p>\n\n<p>We researched how industry leaders approached design systems — including \nWells Fargo's design system as a financial services benchmark. The pattern was \nconsistent: organizations with centralized design infrastructure shipped faster, \nreduced rework, and delivered more consistent experiences. We brought that \nevidence directly to leadership.</p>\n\n<p><strong>Figma Usage Data</strong></p>\n\n<p>We pulled component usage data from Figma across our active design files. \nThe numbers told the story we couldn't argue from instinct alone: duplicate \ncomponents proliferating across teams, designers recreating the same elements \nrepeatedly, measurable inconsistency across products. We quantified the time \ncost and presented it as a resource problem, not a design problem.</p>\n\n<p><strong>Proof of Concept</strong></p>\n\n<p>We didn't ask for permission to start building. We built a small-scale proof \nof concept — a unified component set covering the most-used UI patterns — and \npiloted it with two willing product teams. The feedback from those teams became \nthe most persuasive part of our business case. Real designers, on real projects, \nreporting real time savings.</p>\n\n<p><strong>The Framing That Landed</strong></p>\n\n<p>We stopped arguing for design consistency and started arguing for operational \nefficiency. A design system isn't a design team project — it's a business \ninfrastructure investment with a measurable return. Once leadership saw it \nframed that way, the conversation shifted.</p>\n\n<p>Six months after the first conversation, we had funding, a team mandate, \nand the green light to build.</p>",
           "image": ""
         },
@@ -545,7 +532,32 @@ const portfolioData = {
           "enabled": true,
           "title": "<p><strong>Technical Framework: Atomic Design</strong></p>",
           "content": "<p>With funding secured, I structured the Compass Design System using Brad \nFrost's Atomic Design methodology — a deliberate choice that gave us a shared \nvocabulary across design and engineering from day one.</p>\n\n<p><strong>Foundations (Atoms)</strong></p>\n<p>The non-negotiable building blocks: color system, typography scale, spacing \ngrid, iconography, elevation. These became our design tokens — the single source \nof truth that ensured every product, on every platform, spoke the same visual \nlanguage.</p>\n\n<p><strong>Components (Molecules &amp; Organisms)</strong></p>\n<p>Functional UI components built from foundations: buttons, text fields, \nnavigation, cards, forms, data tables, modals. Each component designed with \nvariants covering the full range of use cases — states, sizes, platform contexts \n— while maintaining visual consistency.</p>\n\n<p><strong>Patterns (Templates &amp; Pages)</strong></p>\n<p>Repeatable structures for high-level flows: enrollment flows, benefits summary \nscreens, dependent management, coverage selection, admin dashboards. These gave \nproduct teams a starting point without starting from scratch.</p>\n\n<p><strong>Multi-Platform Token Architecture</strong></p>\n\n<p>Compass HR's users don't sit at one device. Benefits administrators work at \ndesktops. Employees enroll on mobile during open enrollment periods. HR managers \nreview dashboards on tablets in meetings.</p>\n\n<p>Each platform has different interaction requirements. Desktop prioritizes \ninformation density and keyboard navigation. Mobile requires larger touch targets \nand streamlined flows. Tablet sits between the two.</p>\n\n<p>I built the token system to resolve platform variance from the foundation up \n— ensuring that a single design decision applied correctly across all three \nsurfaces without manual per-platform overrides. Spacing, typography scales, and \ntouch targets adapted to context while maintaining visual coherence.</p>\n\n<p><strong>Developer Collaboration</strong></p>\n\n<p>I worked closely with our engineering team throughout — not to own the React \nimplementation, but to ensure Figma components and code components stayed in \nalignment. Regular syncs, shared naming conventions, and joint component reviews \nmeant developers could implement designs accurately the first time. The \n\"eye-balling\" problem didn't disappear because we built better Figma files. \nIt disappeared because we built a shared language.</p>\n\n<p><strong>Governance Model</strong></p>\n\n<p>A design system without governance is a snapshot. I established a contribution \nmodel with clear criteria for how teams could consume, extend, and contribute to \nthe system — ensuring it stayed relevant as new products launched and team \nmembers changed.</p>\n\n<p>Documentation wasn't an afterthought. Every component shipped with usage \nguidelines, do's and don'ts, accessibility requirements, and platform-specific \nbehavior notes. The system wasn't just components — it was the guidance to use \nthem correctly.</p>",
-          "images": []
+          "images": [
+            {
+              "url": "img/latest/DS/comp-lib1.png",
+              "caption": ""
+            },
+            {
+              "url": "img/latest/DS/comp-lib2.png",
+              "caption": ""
+            },
+            {
+              "url": "img/latest/DS/comp-lib3.png",
+              "caption": ""
+            },
+            {
+              "url": "img/latest/DS/comp-lib4.png",
+              "caption": ""
+            },
+            {
+              "url": "img/latest/DS/comp-lib5.png",
+              "caption": ""
+            },
+            {
+              "url": "img/latest/DS/comp-lib6.png",
+              "caption": ""
+            }
+          ]
         },
         "prototype": {
           "enabled": false,
@@ -673,7 +685,7 @@ const portfolioData = {
     }
   },
   "footer": {
-    "copyright": "© 2026 Juli Rosa · Created in Ireland, occasionally from my campervan by the sea.",
+    "copyright": "© 2026 J. Pixel Rosa",
     "languages": [
       "EN",
       "ES",
