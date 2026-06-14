@@ -25,7 +25,7 @@ const portfolioData = {
     "headline": "Strategic design &",
     "headlineStrong": "measurable impact.",
     "subtitle": "MSc Master in UX, 7+ years building digital products for Fortune 500 companies. Specialising in design systems, AI-driven research and designing for real users.",
-    "image": "https://github.com/jhurosa/test/blob/main/img/latest/jpixelrosa_logo_final.png",
+    "image": "test/blob/main/img/latest/jpixelrosa_logo_final.png",
     "ctaPrimary": {
       "text": "View my work",
       "url": "#projects"
@@ -90,7 +90,7 @@ const portfolioData = {
     "tag": "Contact",
     "headline": "Let's work",
     "headlineStrong": "together.",
-    "subtitle": "Open to fully remote or hybrid product design roles. Based in Ireland.",
+    "subtitle": "Senior product designer available for new opportunities. Based in Ireland, working globally/",
     "email": "hello@jpixelrosa.com",
     "linkedin": "",
     "formspreeId": "",
@@ -139,234 +139,9 @@ const portfolioData = {
   },
   "academicSection": {
     "title": "Academic work · 2019–2021",
-    "projects": [
-      {
-        "id": "aca-1",
-        "date": "Master's · 2020–2021",
-        "title": "AirAR — Airport Navigation",
-        "description": "Augmented reality app improving airport wayfinding for travellers.",
-        "metric": "49% faster navigation",
-        "image": "",
-        "link": "project.html?id=aca-1",
-        "locked": false
-      },
-      {
-        "id": "aca-2",
-        "date": "Master's · 2019–2020",
-        "title": "Universal Design for Low Vision",
-        "description": "Accessibility research and interface design for visually impaired users.",
-        "metric": "Inclusive research",
-        "image": "",
-        "link": "project.html?id=aca-2",
-        "locked": false
-      },
-      {
-        "id": "aca-3",
-        "date": "Master's · 2019",
-        "title": "Complex User Research",
-        "description": "In-depth qualitative and quantitative UX research methodologies.",
-        "metric": "Mixed methods",
-        "image": "",
-        "link": "project.html?id=aca-3",
-        "locked": false
-      }
-    ]
+    "projects": []
   },
   "projectPages": {
-    "aca-1": {
-      "title": "AirAR — Airport Navigation",
-      "summary": "Augmented reality app improving airport wayfinding for travellers.",
-      "role": "UX Researcher & Designer",
-      "timeline": "2020–2021",
-      "team": "",
-      "tools": "Figma, AR Kit",
-      "heroImage": "",
-      "stats": [
-        {
-          "number": "49%",
-          "label": "Faster navigation"
-        }
-      ],
-      "sections": {
-        "overview": {
-          "enabled": true,
-          "tagline": "Master's Thesis",
-          "content": "<p>Details coming soon.</p>"
-        },
-        "contribution": {
-          "enabled": false,
-          "content": ""
-        },
-        "challenge": {
-          "enabled": false,
-          "title": "The Challenge",
-          "content": "",
-          "image": ""
-        },
-        "problem": {
-          "enabled": false,
-          "title": "Problem to Solve",
-          "content": "",
-          "images": []
-        },
-        "strategy": {
-          "enabled": false,
-          "title": "UX Strategy",
-          "content": "",
-          "image": "",
-          "images": []
-        },
-        "solution": {
-          "enabled": false,
-          "title": "The Solution",
-          "content": "",
-          "images": []
-        },
-        "prototype": {
-          "enabled": false,
-          "title": "Prototype",
-          "videoUrl": ""
-        },
-        "results": {
-          "enabled": false,
-          "title": "Results & Impact",
-          "content": "",
-          "quote": "",
-          "quoteAuthor": ""
-        },
-        "impact": {
-          "enabled": false,
-          "title": "The Impact",
-          "content": ""
-        }
-      }
-    },
-    "aca-2": {
-      "title": "Universal Design for Low Vision",
-      "summary": "Accessibility research and interface design for visually impaired users.",
-      "role": "UX Researcher",
-      "timeline": "2019–2020",
-      "team": "",
-      "tools": "Figma",
-      "heroImage": "",
-      "stats": [],
-      "sections": {
-        "overview": {
-          "enabled": true,
-          "tagline": "Accessibility Research",
-          "content": "<p>Details coming soon.</p>"
-        },
-        "contribution": {
-          "enabled": false,
-          "content": ""
-        },
-        "challenge": {
-          "enabled": false,
-          "title": "The Challenge",
-          "content": "",
-          "image": ""
-        },
-        "problem": {
-          "enabled": false,
-          "title": "Problem to Solve",
-          "content": "",
-          "images": []
-        },
-        "strategy": {
-          "enabled": false,
-          "title": "UX Strategy",
-          "content": "",
-          "image": "",
-          "images": []
-        },
-        "solution": {
-          "enabled": false,
-          "title": "The Solution",
-          "content": "",
-          "images": []
-        },
-        "prototype": {
-          "enabled": false,
-          "title": "Prototype",
-          "videoUrl": ""
-        },
-        "results": {
-          "enabled": false,
-          "title": "Results & Impact",
-          "content": "",
-          "quote": "",
-          "quoteAuthor": ""
-        },
-        "impact": {
-          "enabled": false,
-          "title": "The Impact",
-          "content": ""
-        }
-      }
-    },
-    "aca-3": {
-      "title": "Complex User Research",
-      "summary": "In-depth qualitative and quantitative UX research methodologies.",
-      "role": "UX Researcher",
-      "timeline": "2019",
-      "team": "",
-      "tools": "Miro, Survey tools",
-      "heroImage": "",
-      "stats": [],
-      "sections": {
-        "overview": {
-          "enabled": true,
-          "tagline": "UX Research",
-          "content": "<p>Details coming soon.</p>"
-        },
-        "contribution": {
-          "enabled": false,
-          "content": ""
-        },
-        "challenge": {
-          "enabled": false,
-          "title": "The Challenge",
-          "content": "",
-          "image": ""
-        },
-        "problem": {
-          "enabled": false,
-          "title": "Problem to Solve",
-          "content": "",
-          "images": []
-        },
-        "strategy": {
-          "enabled": false,
-          "title": "UX Strategy",
-          "content": "",
-          "image": "",
-          "images": []
-        },
-        "solution": {
-          "enabled": false,
-          "title": "The Solution",
-          "content": "",
-          "images": []
-        },
-        "prototype": {
-          "enabled": false,
-          "title": "Prototype",
-          "videoUrl": ""
-        },
-        "results": {
-          "enabled": false,
-          "title": "Results & Impact",
-          "content": "",
-          "quote": "",
-          "quoteAuthor": ""
-        },
-        "impact": {
-          "enabled": false,
-          "title": "The Impact",
-          "content": ""
-        }
-      }
-    },
     "proj-1780697392365": {
       "title": "Stripe Market Expansion Guidance",
       "summary": "A self-initiated concept exploring a gap in Stripe's merchant expansion experience: <strong>a guided Dashboard flow connecting payment method selection, tax compliance, and checkout </strong>localization for businesses going live in Ireland and Brazil.\n",
