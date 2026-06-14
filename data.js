@@ -25,7 +25,7 @@ const portfolioData = {
     "headline": "Strategic design &",
     "headlineStrong": "measurable impact.",
     "subtitle": "MSc Master in UX, 7+ years building digital products for Fortune 500 companies. Specialising in design systems, AI-driven research and designing for real users.",
-    "image": "test/blob/main/img/latest/jpixelrosa_logo_final.png",
+    "image": "img/latest/jpixelrosa_logo_final.png",
     "ctaPrimary": {
       "text": "View my work",
       "url": "#projects"
