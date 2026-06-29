@@ -527,16 +527,19 @@ function editProject(id) {
       <div class="fg full"><label>YouTube embed URL (use embed URL, not watch URL)</label><input type="url" value="${esc(s.prototype?.videoUrl)}" oninput="updateSec('prototype','videoUrl',this.value)" /></div>
     `)}
 ${secBlock('impactOverview','The Impact', s.impactOverview, `
+      <div class="fg full"><label>Section heading</label><input type="text" value="${esc(s.impactOverview?.title)}" oninput="updateSec('impactOverview','title',this.value)" /></div>
       <div class="fg full"><label>Content</label><textarea rows="4" oninput="updateSec('impactOverview','content',this.value)">${esc(s.impactOverview?.content)}</textarea></div>
     `)}
 
     ${secBlock('metrics','Metrics', s.metrics, `
+      <div class="fg full"><label>Section heading</label><input type="text" value="${esc(s.metrics?.title)}" oninput="updateSec('metrics','title',this.value)" /></div>
       <div class="fg full"><label>Content</label><textarea rows="4" oninput="updateSec('metrics','content',this.value)">${esc(s.metrics?.content)}</textarea></div>
       <div class="fg full"><label>Quote</label><textarea rows="2" oninput="updateSec('metrics','quote',this.value)">${esc(s.metrics?.quote)}</textarea></div>
       <div class="fg full"><label>Quote author</label><input type="text" value="${esc(s.metrics?.quoteAuthor)}" oninput="updateSec('metrics','quoteAuthor',this.value)" /></div>
     `)}
 
-    ${secBlock('considerations','Last considerations', s.considerations, `
+   ${secBlock('considerations','Last considerations', s.considerations, `
+      <div class="fg full"><label>Section heading</label><input type="text" value="${esc(s.considerations?.title)}" oninput="updateSec('considerations','title',this.value)" /></div>
       <div class="fg full"><label>Content</label><textarea rows="3" oninput="updateSec('considerations','content',this.value)">${esc(s.considerations?.content)}</textarea></div>
     `)}
 
