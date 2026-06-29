@@ -345,25 +345,36 @@
         </div>`;
       }
 
-      // Results
-      if (s.results && s.results.enabled && s.results.content) {
+    // The Impact
+      if (s.impactOverview && s.impactOverview.enabled && s.impactOverview.content) {
         html += `<div class="section">
-          <div class="section-label-col"><div class="section-tag">Results</div></div>
+          <div class="section-label-col"><div class="section-tag">The Impact</div></div>
           <div class="section-content">
-            ${s.results.title ? `<div class="section-title">${s.results.title}</div>` : ''}
-            <div class="rich-text">${s.results.content}</div>
-            ${s.results.quote ? `<div class="quote-block"><div class="quote-text">"${s.results.quote}"</div>${s.results.quoteAuthor ? `<div class="quote-author">— ${s.results.quoteAuthor}</div>` : ''}</div>` : ''}
+            ${s.impactOverview.title ? `<div class="section-title">${s.impactOverview.title}</div>` : ''}
+            <div class="rich-text">${s.impactOverview.content}</div>
           </div>
         </div>`;
       }
 
-      // Impact
-      if (s.impact && s.impact.enabled && s.impact.content) {
+      // Metrics
+      if (s.metrics && s.metrics.enabled && s.metrics.content) {
         html += `<div class="section">
-          <div class="section-label-col"><div class="section-tag">The Impact</div></div>
+          <div class="section-label-col"><div class="section-tag">Metrics</div></div>
           <div class="section-content">
-            ${s.impact.title ? `<div class="section-title">${s.impact.title}</div>` : ''}
-            <div class="rich-text">${s.impact.content}</div>
+            ${s.metrics.title ? `<div class="section-title">${s.metrics.title}</div>` : ''}
+            <div class="rich-text">${s.metrics.content}</div>
+            ${s.metrics.quote ? `<div class="quote-block"><div class="quote-text">"${s.metrics.quote}"</div>${s.metrics.quoteAuthor ? `<div class="quote-author">— ${s.metrics.quoteAuthor}</div>` : ''}</div>` : ''}
+          </div>
+        </div>`;
+      }
+
+      // Last considerations
+      if (s.considerations && s.considerations.enabled && s.considerations.content) {
+        html += `<div class="section">
+          <div class="section-label-col"><div class="section-tag">Last considerations</div></div>
+          <div class="section-content">
+            ${s.considerations.title ? `<div class="section-title">${s.considerations.title}</div>` : ''}
+            <div class="rich-text">${s.considerations.content}</div>
           </div>
         </div>`;
       }
