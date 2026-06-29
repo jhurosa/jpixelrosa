@@ -419,8 +419,9 @@ function addProject() {
       strategy: { enabled: false, title: 'UX Strategy', content: '', image: '', images: [] },
       solution: { enabled: false, title: 'The Solution', content: '', images: [] },
       prototype: { enabled: false, title: 'Prototype', videoUrl: '' },
-      results: { enabled: false, title: 'Results & Impact', content: '', quote: '', quoteAuthor: '' },
-      impact: { enabled: false, title: 'The Impact', content: '' }
+    impactOverview: { enabled: false, title: 'The Impact', content: '' },
+      metrics: { enabled: false, title: 'Metrics', content: '', quote: '', quoteAuthor: '' },
+      considerations: { enabled: false, title: 'Last considerations', content: '' }
     }
   };
   save();
@@ -525,15 +526,18 @@ function editProject(id) {
     ${secBlock('prototype','Prototype / Video', s.prototype, `
       <div class="fg full"><label>YouTube embed URL (use embed URL, not watch URL)</label><input type="url" value="${esc(s.prototype?.videoUrl)}" oninput="updateSec('prototype','videoUrl',this.value)" /></div>
     `)}
-
-    ${secBlock('results','Results & Impact', s.results, `
-      <div class="fg full"><label>Content</label><textarea rows="4" oninput="updateSec('results','content',this.value)">${esc(s.results?.content)}</textarea></div>
-      <div class="fg full"><label>Quote</label><textarea rows="2" oninput="updateSec('results','quote',this.value)">${esc(s.results?.quote)}</textarea></div>
-      <div class="fg full"><label>Quote author</label><input type="text" value="${esc(s.results?.quoteAuthor)}" oninput="updateSec('results','quoteAuthor',this.value)" /></div>
+${secBlock('impactOverview','The Impact', s.impactOverview, `
+      <div class="fg full"><label>Content</label><textarea rows="4" oninput="updateSec('impactOverview','content',this.value)">${esc(s.impactOverview?.content)}</textarea></div>
     `)}
 
-    ${secBlock('impact','The Impact', s.impact, `
-      <div class="fg full"><label>Content</label><textarea rows="3" oninput="updateSec('impact','content',this.value)">${esc(s.impact?.content)}</textarea></div>
+    ${secBlock('metrics','METRICS', s.metrics, `
+      <div class="fg full"><label>Content</label><textarea rows="4" oninput="updateSec('metrics','content',this.value)">${esc(s.metrics?.content)}</textarea></div>
+      <div class="fg full"><label>Quote</label><textarea rows="2" oninput="updateSec('metrics','quote',this.value)">${esc(s.metrics?.quote)}</textarea></div>
+      <div class="fg full"><label>Quote author</label><input type="text" value="${esc(s.metrics?.quoteAuthor)}" oninput="updateSec('metrics','quoteAuthor',this.value)" /></div>
+    `)}
+
+    ${secBlock('considerations','Last considerations', s.considerations, `
+      <div class="fg full"><label>Content</label><textarea rows="3" oninput="updateSec('considerations','content',this.value)">${esc(s.considerations?.content)}</textarea></div>
     `)}
 
     <div class="flex mt-3" style="padding-bottom:2rem">
