@@ -530,7 +530,7 @@ ${secBlock('impactOverview','The Impact', s.impactOverview, `
       <div class="fg full"><label>Content</label><textarea rows="4" oninput="updateSec('impactOverview','content',this.value)">${esc(s.impactOverview?.content)}</textarea></div>
     `)}
 
-    ${secBlock('metrics','METRICS', s.metrics, `
+    ${secBlock('metrics','Metrics', s.metrics, `
       <div class="fg full"><label>Content</label><textarea rows="4" oninput="updateSec('metrics','content',this.value)">${esc(s.metrics?.content)}</textarea></div>
       <div class="fg full"><label>Quote</label><textarea rows="2" oninput="updateSec('metrics','quote',this.value)">${esc(s.metrics?.quote)}</textarea></div>
       <div class="fg full"><label>Quote author</label><input type="text" value="${esc(s.metrics?.quoteAuthor)}" oninput="updateSec('metrics','quoteAuthor',this.value)" /></div>
