@@ -242,16 +242,21 @@ const portfolioData = {
           "title": "Prototype",
           "videoUrl": ""
         },
-        "results": {
+       "impactOverview": {
+          "enabled": false,
+          "title": "The Impact",
+          "content": ""
+        },
+        "metrics": {
           "enabled": true,
-          "title": "Results & Impact",
+          "title": "Metrics",
           "content": "<p><strong>How success would be measured</strong></p>\n\n<p>If implemented, this flow would be evaluated against three core metrics:</p>\n\n<p><strong>Time-to-live in a new market</strong><br>\nHow long does it take a seller to go from selecting a target market to processing their first transaction? The guided flow is designed to reduce the research and configuration time currently spent outside the Dashboard.</p>\n\n<p><strong>Support ticket volume around market setup</strong><br>\nA high volume of support contacts around payment method configuration, VAT setup, and checkout localization would signal the gap this flow addresses. A reduction in those contacts post-implementation would be the clearest signal of success.</p>\n\n<p><strong>Checkout conversion rate by market</strong><br>\nAre sellers who complete the localization step seeing better conversion in Ireland and Brazil than those who don't? Conversion lift from enabling local payment methods and localizing checkout language would be the ultimate business validation.</p>\n\n<p><strong>Payment method activation rate</strong><br>\nWhat percentage of sellers expanding to Brazil activate PIX? What percentage expanding to Ireland activate SEPA? Low activation rates would signal the flow isn't driving action, and high rates would confirm the guided approach is working.</p>",
           "quote": "",
           "quoteAuthor": ""
         },
-        "impact": {
+        "considerations": {
           "enabled": true,
-          "title": "The Impact",
+          "title": "Last considerations",
           "content": "<p><strong>What This Explores</strong></p>\n<p>This concept addresses a real gap between Stripe's product capabilities and the merchant expansion experience. Stripe supports both Ireland and Brazil—but going live in either market without guidance leads to predictable failures: <strong>wrong payment methods, missed tax obligations, and checkout experiences that don't match local expectations.</strong></p>\n<p><em>The design hypothesis: a guided expansion flow connecting payment method selection, tax compliance, and checkout localization would reduce time-to-live in new markets, reduce support contacts around setup questions, and improve conversion by increasing checkout localization rates.</em></p>\n\n<p><strong>Conclusion</strong></p>\n<p>Stripe has the infrastructure to support businesses expanding into Ireland and Brazil.  <strong>The gap isn't capability, it's guidance.</strong> Payment methods, tax compliance, and checkout localization are three decisions that belong together, and right now sellers have to connect those dots themselves.</p>\n\n<p>The core design tension in this project was between comprehensiveness and confidence. Brazil in particular has enough complexity that a fully accurate compliance guide would overwhelm any seller. The challenge was figuring out what level of detail creates confidence without creating paralysis — and where to draw the line between in-product guidance and \"please talk to a professional.\"</p>\n\n<p>That tension isn't unique to payments. It's the same problem I worked through designing benefits enrollment flows at my current job — how do you help someone make a high-stakes decision without overwhelming them or pretending the product knows more than it does? The domain changes. The design problem doesn't.</p>"
         }
       }
@@ -356,16 +361,21 @@ const portfolioData = {
           "title": "Prototype",
           "videoUrl": ""
         },
-        "results": {
+        "impactOverview": {
+          "enabled": false,
+          "title": "The Impact",
+          "content": ""
+        },
+        "metrics": {
           "enabled": true,
-          "title": "Results & Impact",
+          "title": "Metrics",
           "content": "<p><strong>Efficiency Gains</strong></p>\n\n<p><strong>40% reduction in design time per project:</strong> Tasks that \npreviously required recreating components from scratch now started from a shared library. Designers redirected that time toward solving actual user problems.</p>\n\n<p><strong>Significantly faster onboarding:</strong> New designers could deliver high-fidelity, on-brand work within days. The weeks-long audit process was replaced by documentation they could read in an afternoon.</p>\n\n<p><strong>Dev collaboration streamlined:</strong> The end-to-end product cycle had a single source of truth, eliminating the back-and-forth that had previously consumed hours per engagement.</p>\n\n<p><strong>Product Quality</strong></p>\n\n<p><strong>100% adoption across 35+ designers:</strong> Every UX person in the team now uses Compass Design System components. Users experience a consistent, professional interface regardless of which Compass HR product they are designing for. </p>\n\n<p><strong>Unified brand experience:</strong> Five button variants became one. Three navigation patterns became one. The visual chaos was replaced by a coherent, stable product language.</p> Also, in 2024, 2 new products were developed using the Compass Design systems from the ground up.</p>\n\n<p><strong>WCAG 2.1 AA compliance across all components.</strong> Every component shipped with accessibility built in — reducing legal risk and improving usability for all users. UX designers didn't have to do accessibility assessments before handing it to developers; that was done for them beforehand.</p>\n\n<p><strong>Team Outcomes</strong></p>\n\n<p><strong>35+ designers and developers working from a single source of truth: </strong> The system became the foundation for all product work — not a reference document, but it became our way we work.</p>\n\n<p><strong>Design-engineering alignment: </strong> Shared naming conventions and regular sync cycles meant developers implemented designs accurately the first time. Rework dropped, and trust between teams increased.</p>\n\n<p><strong>Design debt stopped accumulating:</strong> New work built on the foundation rather than around it.</p>\n\n<ul>\n  <li><strong>50+</strong> production-ready components across desktop, mobile, \n  and tablet</li>\n  <li><strong>12</strong> established products unified under a single design language and 2 new products created from the ground up.</li>\n  <li><strong>35+</strong> designers and developers working from one source of truth</li>\n  <li><strong>100%</strong> adoption rate across all UX designers</li>\n  <li><strong>40%</strong> reduction in design time in tasks that took 40 hours \n  now take 24</li>\n  <li><strong>3</strong> platforms supported, such as desktop, mobile, and tablet</li>\n  <li><strong>6 months</strong> of stakeholder advocacy before a single \n  component was built</li>\n  <li><strong>WCAG 2.1 AA</strong> compliance built into every component</li>",
           "quote": "",
           "quoteAuthor": ""
         },
-        "impact": {
+        "considerations": {
           "enabled": true,
-          "title": "The Impact",
+          "title": "Last considerations",
           "content": "<p><strong>What chahnged after all?</strong></p>\n<p><strong>For Designers:</strong> No more reinventing the wheel. Designers stopped spending time recreating buttons and forms and started spending it solving real user problems. \n<p>New hires could contribute high-fidelity, on-brand work within days of joining, not weeks. The system gave them a foundation to build on, not a puzzle to reverse-engineer.</p>\n\n<p><strong>For Developers:</strong> A shared language between design and engineering meant developers could implement the first time accurately. The correction cycles that had consumed hours of back-and-forth on every project were replaced by joint reviews and \nshared naming conventions.</p>\n\n<p><strong>For the Business:</strong> Faster product development. Reduced legal risk through accessibility. A consistent experience across 12+2 products that built user trust instead of eroding it. </p>\n\n<p>The design system paid for itself through efficiency gains, and the six-month fight to fund it turned out to be the best investment the team made.</p>\n\n<p><strong>For Users:</strong> Employees managing benefits decisions, enrollment deadlines, dependent coverage, and life events now interact with a product that feels stable and professional across every touchpoint.</p>\n<p>The visual instability that had quietly signalled organisational dysfunction was replaced by an experience that earns trust before a single word is read.</p>"
         }
       }
@@ -461,16 +471,21 @@ const portfolioData = {
           "title": "Prototype",
           "videoUrl": ""
         },
-        "results": {
+        "impactOverview": {
+          "enabled": false,
+          "title": "The Impact",
+          "content": ""
+        },
+        "metrics": {
           "enabled": true,
-          "title": "Results & Impact",
+          "title": "Metrics",
           "content": "<p><strong>How would I measure success? </p></strong>\n<p>This is a conceptual project. No live metrics are available. If implemented, success would be measured against:</p>\n\n<p><strong>Enrollment completion rate:</strong> what percentage of users who start the flow reach confirm & submit.</p>\n\n<p><strong>Step abandonment rate:</strong> which screen drives the most drop-off, and whether the AI guidance reduces it at the beneficiary setup step specifically.</p>\n\n<p><strong>Plan upsell rate:</strong> did users add a second plan when guided through plan selection versus an unguided experience.</p>\n\n<p><strong>Support contact rate:</strong> whether users who complete the guided flow generate fewer post-enrollment support contacts around coverage questions.</p>",
           "quote": "",
           "quoteAuthor": ""
         },
-        "impact": {
+        "considerations": {
           "enabled": true,
-          "title": "The Impact",
+          "title": "Last considerations",
           "content": "<p>Vantage Life was designed to prove a specific thesis: A DTC life insurance enrollment experience can feel <strong>clear without being reductive, guided without being prescriptive, and complete without being overwhelming.</strong></p>\n\n<p>The design decisions that matter most in this flow aren't the visual ones; they're the structural ones: where AI guidance is placed, how complexity is staged, and the insistence that every step gives users an honest picture of what they're committing to before they commit.</p>\n\nWhen comes to life insurance enrollment, the design problem is universal: <strong>how do you help someone make a high-stakes decision they'd rather not have to make?</strong></p>"
         }
       }
