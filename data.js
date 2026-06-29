@@ -134,16 +134,6 @@ const portfolioData = {
         "image": "img/latest/vantage-life/vatage-life-card.png",
         "link": "project.html?id=proj-1781007763207",
         "locked": true
-      },
-      {
-        "id": "proj-1782733766088",
-        "date": "2026",
-        "title": "AIR AR WAYFINDING",
-        "description": "<p>An <strong>augmented reality wayfinding app</strong> for airports, built to cut the time travellers spend hunting for gates, flight updates, and boarding information, and to bring down the anxiety that comes with navigating somewhere unfamiliar. I ran the project through the full discover, define, ideate, design, and test cycle, ending with a <strong>41-participant remote test</strong> comparing the AR experience against a non-AR control.</p>",
-        "metric": "",
-        "image": "",
-        "link": "project.html?id=proj-1782733766088",
-        "locked": false
       }
     ]
   },
@@ -482,69 +472,6 @@ const portfolioData = {
           "enabled": true,
           "title": "The Impact",
           "content": "<p>Vantage Life was designed to prove a specific thesis: A DTC life insurance enrollment experience can feel <strong>clear without being reductive, guided without being prescriptive, and complete without being overwhelming.</strong></p>\n\n<p>The design decisions that matter most in this flow aren't the visual ones; they're the structural ones: where AI guidance is placed, how complexity is staged, and the insistence that every step gives users an honest picture of what they're committing to before they commit.</p>\n\nWhen comes to life insurance enrollment, the design problem is universal: <strong>how do you help someone make a high-stakes decision they'd rather not have to make?</strong></p>"
-        }
-      }
-    },
-    "proj-1782733766088": {
-      "title": "New Project",
-      "summary": "",
-      "role": "UX Researcher and Designer (solo)",
-      "timeline": "2021",
-      "team": "",
-      "tools": "Figma, AR Maze, Unity",
-      "heroImage": "",
-      "stats": [],
-      "sections": {
-        "overview": {
-          "enabled": false,
-          "tagline": "What I built",
-          "content": ""
-        },
-        "contribution": {
-          "enabled": false,
-          "content": "<ul>\n\n  <li>Ran mixed-methods discovery research: a <strong>166-person survey</strong>, 6 user interviews, and a competitive audit of 5 direct AR-wayfinding apps</li>\n\n  <li>Synthesized findings into a <strong>thematic analysis</strong>, a primary persona, and a user journey map</li>\n\n  <li>Defined the <strong>problem statement</strong> and prioritized features against user goals</li>\n\n  <li>Sketched, paper-prototyped, and wireframed the experience, testing each fidelity level before moving to the next</li>\n\n  <li>Built the <strong>high-fidelity digital prototype</strong> in Figma, including the AR navigation flow</li>\n\n  <li>Designed and ran a remote <strong>A/B usability test</strong> via Maze, measuring task time, affect (PANAS), and workload (NASA-TLX)</li>\n\n</ul>"
-        },
-        "challenge": {
-          "enabled": false,
-          "title": "The Challenge",
-          "content": "",
-          "image": ""
-        },
-        "problem": {
-          "enabled": true,
-          "title": "Problem to Solve",
-          "content": "<p>Airports are stressful by design. Long queues, unfamiliar layouts, and time pressure stack on top of each other before a traveller has even found their gate. That's not just an impression: <strong>42% of people report feeling nervous and confused</strong> inside an airport, and in my own survey, <strong>44% named queue time</strong> specifically as their biggest source of anxiety.</p>\n\n<p>I didn't want to just build \"a wayfinding app.\" What I actually wanted to test was whether <strong>augmented reality could change how lost and how anxious people feel</strong>, not just how fast they get from A to B.</p>\n\n<h3>Research Approach</h3>\n\n<p>I ran a mixed-methods discovery phase before designing anything: a 166-person survey, six interviews, and a competitive audit of five direct AR-wayfinding apps.</p>\n\n<p>The survey showed <strong>38% wanted flight updates</strong> pushed to their phone, 32% felt fairly tense moving through the airport, and 44% were nervous specifically about queue time. All six interview participants described feeling nervous in transit, three were already using Google Maps as an improvised navigation aid in unfamiliar terminals, and every one of them raised long queues unprompted. The competitor audit was the most telling part: of five direct AR-wayfinding apps, <strong>only two had bothered with onboarding AR</strong>, only two used any kind of map overview, and just one sent live notifications. Most of the category was treating AR as decoration rather than as a navigation tool.</p>\n\n<h3>Thematic Analysis</h3>\n\n<p>Coding the interview data surfaced three consistent themes:</p>\n\n<ul>\n\n  <li><strong>Looking for direction:</strong> screens, signage, physical maps, Google Maps, asking staff for help</li>\n\n  <li><strong>Negative feelings:</strong> stress, panic, confusion, tension, being lost</li>\n\n  <li><strong>Airport factor:</strong> long queues, overcrowding, poor wayfinding design, too many people</li>\n\n</ul>\n\n<p>These three themes mapped onto three distinct problems to solve: <strong>navigation, emotion, and environment</strong>. A single static map couldn't address any of them.</p>\n\n<h3>Defining the User</h3>\n\n<p>From the interview data, I built out several personas, with <strong>John Ryan</strong> representing the primary target audience: a 27-year-old digital marketer based in Dublin who travels often enough to feel generally comfortable in airports, but who unravels the moment something goes wrong.</p>\n\n<blockquote>\n\n  <p>\"Since I fly often, I'm comfortable with airports. But if I'm late, I normally get lost and don't have time to search for details.\"</p>\n\n</blockquote>\n\n<p>His frustrations were specific: <strong>losing track of his gate number</strong>, burning 30 minutes in a security queue he didn't plan for, and not being able to find flight update information when he needed it most. His needs followed directly: directions to his gate, low-effort flight notifications, and enough visibility into queue times to actually know when to leave the house.</p>\n\n<p>That became the problem statement:</p>\n\n<blockquote>\n\n  <p><em>\"When I travel through an airport, I want to know where to go and how long it will take, so I can plan to avoid getting lost.\"</em></p>\n\n</blockquote>\n\n<h3>Journey Mapping</h3>\n\n<p>Mapping John's journey from the day before travel through to boarding showed <strong>a sharp emotional dip at two points</strong>: arrival at the airport (queues, crowding, uncertainty about timing) and the walk to the gate (not knowing the route, fear of taking a wrong turn). Those two low points became the design priorities, not the boarding moment itself, which was already relatively low-stress once a passenger had cleared security.</p>",
-          "images": []
-        },
-        "strategy": {
-          "enabled": false,
-          "title": "UX Strategy",
-          "content": "",
-          "image": "",
-          "images": []
-        },
-        "solution": {
-          "enabled": true,
-          "title": "",
-          "content": "<h3>Ideation: Sketches to Paper Prototype</h3>\n\n<p>I worked through low-fidelity sketches before committing to any single direction, exploring navigation entry points, notification patterns, ticket scanning, and an AR onboarding screen. The strongest concepts moved into a <strong>high-fidelity paper prototype</strong> covering AR navigation, notifications, the ticket-add flow, and a Dublin Airport overview screen.</p>\n\n<p>That prototype was tested against four questions: how users move through the AR flow, whether the information architecture put the right content in the right place, whether anything functionally important was missing, and whether the tone and labelling actually made sense to a first-time user.</p>\n\n<!-- INSERT VISUAL: sketch_and_paper_prototype -->\n\n<h3>Wireframe Validation</h3>\n\n<p>A pilot test on the low-fidelity wireframe caught <strong>three problems</strong> early. Neither test participant could comfortably reach the tab navigation at the top of the screen while holding the phone in one hand, which matters in a busy airport where passengers often only have one hand free. The \"Trip\" tab label didn't tell anyone what was inside it, and one participant didn't realise \"Scan Ticket\" meant pointing the camera at a physical ticket. And despite being visible the whole time, <strong>neither participant noticed the AR button at all</strong>. Both got stuck without help.</p>\n\n<p>That led to <strong>four changes</strong>: add a camera icon to the Scan Ticket button, drop the separate AR icon since nobody saw it anyway, move the tab navigation to the bottom of the screen, and rename the \"Trip\" tab.</p>\n\n<!-- INSERT VISUAL: wireframe_pilot_test_findings -->\n\n<h3>Visual &amp; Interaction Design</h3>\n\n<p>I used Carolyn Snyder's prototyping framework to track fidelity across stages: paper prototypes scored medium-to-high on look and feel but low on interaction depth, wireframes flipped that pattern, and the final digital prototype pushed all three dimensions up before testing began.</p>\n\n< p> Colour followed an <strong>emotional-wheel logic</strong> rather than aesthetic preference: orange to prompt action (primary CTAs), green to build confidence and trust (the AR route itself), and dark navy for text and iconography, where contrast mattered most.</p>\n\n<!-- INSERT VISUAL: color_system_application -->\n\n<h3>The Final Artefact</h3>\n\n<p>The high-fidelity prototype centred on three screens. <strong>Add Ticket</strong> lets the user point the camera at a physical or digital ticket and have the flight data feed straight into the app. <strong>Flight &amp; Airport Info</strong> is the home screen, surfacing trip details, boarding time, and airport information at a glance. <strong>AR Route</strong> is the wayfinding layer itself, guiding the user step by step to their gate.</p>",
-          "images": []
-        },
-        "prototype": {
-          "enabled": false,
-          "title": "Prototype",
-          "videoUrl": ""
-        },
-        "results": {
-          "enabled": true,
-          "title": "Results & Impact",
-          "content": "<h3>Usability Testing</h3>\n\n<p>Both prototypes were tested remotely via Maze with 41 participants, split between a non-AR control group and the AirAR test group.</p>\n\n<p><strong>Time on task fell from 49 seconds to 24 seconds.</strong> That's roughly half, comparing the non-AR group to the AirAR group.</p>\n\n<p><strong>Negative affect dropped too.</strong> PANAS data backed that up emotionally: the control group reported higher negative affect, the AirAR group reported lower. The AR group <strong>finished faster and felt better doing it</strong>.</p>\n\n<h3>Participant Feedback</h3>\n\n<p><strong>What worked</strong>, by participants' own account: the app felt genuinely useful for unfamiliar airports, was easy to use with nothing obviously missing, was clear throughout, and was seen as a real time-saver for people who don't travel often or who get lost easily.</p>\n\n<p><strong>What still needed work:</strong> the close button needed actually to function so users could return to the homepage, the back button needed to be clickable, and some of the directional language in the AR labels needed to be clearer.</p>\n\n<h3>Research Metrics</h3>\n\n<ul>\n\n  <li><strong>166 survey respondents</strong> and <strong>6 interview participants</strong> in the discovery phase</li>\n\n  <li><strong>44%</strong> of survey respondents specifically anxious about queue time</li>\n\n  <li><strong>5 competitor apps audited:</strong> only 1 offered live notifications, only 2 used AR onboarding</li>\n\n</ul>\n\n<h3>Usability Testing Metrics</h3>\n\n<ul>\n\n  <li><strong>41 participants</strong> tested remotely via Maze</li>\n\n  <li><strong>49 seconds &rarr; 24 seconds</strong> (time on task, non-AR vs. AirAR)</li>\n\n  <li><strong>Roughly half</strong> the time required to complete the wayfinding task</li>\n\n  <li><strong>Lower negative affect (PANAS)</strong> for the AirAR group vs. the non-AR control</li>\n\n</ul>",
-          "quote": "",
-          "quoteAuthor": ""
-        },
-        "impact": {
-          "enabled": true,
-          "title": "The Impact",
-          "content": "<h3>Key Contribution</h3>\n\n<p>The time it takes a traveler to locate flight details, find their gate, and confirm boarding time <strong>fell by close to half</strong> once AirAR Wayfinding was introduced into the journey.</p>\n\n<h3>Strengths</h3>\n\n<p>The core hypothesis held up under testing: AR-guided wayfinding <strong>cut task completion time roughly in half</strong> and measurably lowered negative affect compared to the non-AR experience.</p>\n\n<h3>Limitations</h3>\n\n<p>COVID-19 forced <strong>the entire test phase remote</strong>. There was no way to validate the AR experience in an actual airport, under real lighting, real crowding, and real time pressure, which is exactly the environment the app was designed for.</p>\n\n<h3>What I Learned</h3>\n\n<p>The biggest lesson had nothing to do with AR, technically speaking. It was about how much of \"getting lost\" is <strong>an emotional problem dressed up as a navigation problem</strong>. PANAS confirmed that: the win wasn't just speed, it was a real drop in how anxious people felt mid-journey. I think that matters more than the time-on-task number, even though the time-on-task number is the easier one to put on a metrics slide.</p>\n\n<p>The low-fidelity wireframe test <strong>paid for itself almost immediately</strong>. Catching the AR-icon visibility problem and the one-handed-use issue before the digital build meant neither flaw made it into the final prototype, where fixing them would have cost a lot more time.</p>\n\n<p>And the remote-testing constraint, frustrating as it was, forced a methodology decision that held up: <strong>PANAS and NASA-TLX</strong> gave me emotional and workload numbers I couldn't have gotten as cleanly from in-person observation alone.</p>"
         }
       }
     }
