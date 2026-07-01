@@ -134,6 +134,16 @@ const portfolioData = {
         "image": "img/latest/vantage-life/vatage-life-card.png",
         "link": "project.html?id=proj-1781007763207",
         "locked": true
+      },
+      {
+        "id": "proj-1782934055907",
+        "date": "2022 2023",
+        "title": "Northlight Health",
+        "description": "A redesigned mental health intake assessment, built around the moments where people were dropping off.\n",
+        "metric": "+25% Completion rate",
+        "image": "",
+        "link": "project.html?id=proj-1782934055907",
+        "locked": true
       }
     ]
   },
@@ -242,7 +252,7 @@ const portfolioData = {
           "title": "Prototype",
           "videoUrl": ""
         },
-       "impactOverview": {
+        "impactOverview": {
           "enabled": false,
           "title": "The Impact",
           "content": ""
@@ -487,6 +497,92 @@ const portfolioData = {
           "enabled": true,
           "title": "Last considerations",
           "content": "<p>Vantage Life was designed to prove a specific thesis: A DTC life insurance enrollment experience can feel <strong>clear without being reductive, guided without being prescriptive, and complete without being overwhelming.</strong></p>\n\n<p>The design decisions that matter most in this flow aren't the visual ones; they're the structural ones: where AI guidance is placed, how complexity is staged, and the insistence that every step gives users an honest picture of what they're committing to before they commit.</p>\n\nWhen comes to life insurance enrollment, the design problem is universal: <strong>how do you help someone make a high-stakes decision they'd rather not have to make?</strong></p>"
+        }
+      }
+    },
+    "proj-1782934055907": {
+      "title": "New Project",
+      "summary": "<p>Northlight Health helps people find the right kind of mental health support: therapy, coaching, or self-guided resources, based on a clinical assessment of where they are and what they need. <strong>The hard part isn't the matching logic. It's getting someone through an intake process about their mental state without losing them halfway through.</strong></p>",
+      "role": "Ux Designer",
+      "timeline": "2022–2023",
+      "team": "Cross-functional product team (design, clinical advisors, engineering)",
+      "tools": "Figma, User Interview, condens",
+      "heroImage": "",
+      "stats": [
+        {
+          "number": "+25%",
+          "label": "Completion rate"
+        }
+      ],
+      "sections": {
+        "overview": {
+          "enabled": true,
+          "tagline": "",
+          "content": "<p>Northlight Health connects people to mental health support based on a clinical assessment: several questions that determine whether therapy, coaching, or self-guided resources fit their situation best. The assessment itself is the product's first real interaction with a user, often at a moment when they're already struggling. If it doesn't work, nothing downstream matters.</p>\n\n<p>I joined this project after the original intake form had been live long enough to generate a clear, consistent abandonment problem. My job wasn't to invent a new concept. It was to figure out exactly where people were leaving and why, then redesign around that.</p>"
+        },
+        "contribution": {
+          "enabled": true,
+          "content": "<ul>\n<li><strong>Identified a significant drop-off in the Support Navigator path</strong> through GA4 funnel data, before any user research began</li>\n<li><strong>Interviewed 6 users</strong> to understand why that drop-off was happening, using their answers to validate and explain what the analytics already showed</li>\n<li><strong>Built the Figma design system</strong> for the assessment flow, working across mobile and desktop</li>\n<li><strong>Led a second round of usability testing</strong> on the redesigned flow and translated findings into specific UI changes</li>\n<li>Checked every screen against accessibility standards before handoff</li>\n</ul>\n"
+        },
+        "challenge": {
+          "enabled": false,
+          "title": "",
+          "content": "",
+          "image": ""
+        },
+        "problem": {
+          "enabled": true,
+          "title": "",
+          "content": "<p>The problem started as a number, not a hunch. <strong>GA4 showed a significant drop in completion partway through the Support Navigator path</strong>, the part of the assessment meant to route people to the right kind of support. That data told us where people were leaving. It didn't tell us why.</p>\n\n<p>Six interviews closed that gap. They weren't the discovery, they were the explanation. <strong>What people described in conversation matched exactly what the funnel data had already shown.</strong> The same handful of complaints came up in different words each time...</p>",
+          "images": [
+            {
+              "url": "img/latest/Northlight/IMG_0077.png",
+              "caption": ""
+            },
+            {
+              "url": "img/latest/Northlight/IMG_0078.png",
+              "caption": ""
+            },
+            {
+              "url": "img/latest/Northlight/IMG_0079.png",
+              "caption": ""
+            }
+          ]
+        },
+        "strategy": {
+          "enabled": true,
+          "title": "UX Strategy",
+          "content": " <p>I focused on three things, based directly on what came up in interviews.</p>\n\n<p><strong>Set expectations up front.</strong> Before starting, users see how long the assessment will take, what each section covers, and who has access to their answers. People who know what's coming are less anxious about starting, and less likely to bail when they hit something unexpected.</p>\n\n<p><strong>Vary the interaction, not just the visuals.</strong> The original form was almost entirely radio buttons and text fields, which made it easy to click through on autopilot without actually reflecting on the answer. I mixed in sliders for questions where a binary yes or no doesn't capture how someone actually feels, and quicker selection patterns for lower-stakes questions. The goal was to keep people present in the questions, not just moving through them.</p>\n\n<p><strong>Treat sensitive questions as a moment, not something to hide.</strong> Some questions in a mental health intake are genuinely heavy. The flow gives a brief heads-up before anything sensitive, instead of dropping it in without warning. It also adds a \"take a break\" option that saves progress automatically, so someone can come back later instead of being forced to either push through or lose their work.</p>",
+          "image": "",
+          "images": []
+        },
+        "solution": {
+          "enabled": true,
+          "title": "",
+          "content": "<p><strong>What changed on screen</strong></p>\n<p>The redesigned flow opens with a clear roadmap: what each part covers, how long it takes, and who sees the answers, instead of dropping users straight into question one. A progress bar runs the whole way through so people always know where they are. Sensitive sections get a short, plain-language warning before they start. The \"take a break\" feature isn't buried in a settings menu. It's available at any point, with progress saved automatically. And unlike the original form, <strong>a visible way to reach immediate help stays on screen the entire time</strong>, not just at the end.</p>\n\n<p>None of these are complicated patterns on their own. The work was figuring out which ones mattered for this context, where getting it wrong doesn't cost a sale. It costs someone closing the tab on something they needed help with.</p>\n",
+          "images": []
+        },
+        "prototype": {
+          "enabled": false,
+          "title": "Prototype",
+          "videoUrl": ""
+        },
+        "impactOverview": {
+          "enabled": true,
+          "title": "",
+          "content": "<p>The redesign didn't change what the assessment asks. <strong>It changed how asking felt.</strong></p>\n\n<p>Before, the form moved at the pace of a paperwork process: question, answer, next question, no acknowledgment of what any of it cost the person answering. After, the same questions sit inside a structure that tells people what's coming, gives them a way out if they need one, and doesn't punish them for stepping away. The content stayed clinical. <strong>The experience stopped feeling clinical.</strong></p>\n\n<p>That distinction mattered more than any single screen change. Users weren't complaining about question wording or visual design. <strong>They were responding to a process that gave them no control over a conversation about their own mental health.</strong> Handing some of that control back, through pacing, warnings, and a real pause function, was the actual fix.</p>\n"
+        },
+        "metrics": {
+          "enabled": true,
+          "title": "Completion rate: +25%",
+          "content": "<p><strong>Drop-off identified via GA4</strong><br>\nA significant portion of users left partway through the Support Navigator path, flagged through analytics before any qualitative research began.</p>\n\n<p><strong>Completion rate: +25%</strong><br>\nAfter the new roadmap-first structure replaced the original single-question flow.</p>\n\n<p><strong>Interviews conducted: 6</strong><br>\nUsed to explain and validate what the funnel data had already surfaced.</p>",
+          "quote": "",
+          "quoteAuthor": ""
+        },
+        "considerations": {
+          "enabled": true,
+          "title": "",
+          "content": "<p>I want to be specific about what kind of evidence this project actually rests on. <strong>The problem wasn't identified through six conversations. It was identified through analytics, then explained through six conversations.</strong> That order matters. Interviews are good at telling you why something is happening once you already know where to look. They're a weaker tool for finding the problem in the first place, and I'd be overstating this project's rigor if I implied otherwise.</p>\n\n<p>What I'd still flag honestly: six people is enough to hear a pattern, not enough to call it representative. <strong>The analytics told us the drop-off was real and significant. The interviews told us a plausible story about why.</strong> A larger qualitative sample would have made that story sturdier.</p>\n\n<p>The bigger lesson for me wasn't about forms at all. <strong>It was about who gets to decide the pace of a hard conversation.</strong> Most intake processes are built around what the business needs to collect, not what the person answering can handle in one sitting. Once I started treating those as competing priorities instead of the same thing, the design decisions got a lot more obvious.</p>\n"
         }
       }
     }
